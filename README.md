@@ -1,4 +1,7 @@
-These are code examples from the Dynamical Parity Stabilization with spin-orbit interaction (SOI) and Zeeman field (ZF) project.
-Current_ABS.ipynb contains the derivations of ABSs energies (with SOI and ZF) and current matrix elements (beween Andreev bound states (ABSs) and ABSs and continuum), with transfer matrix approach.
-Lindblad in excit picture.ipynb contains derivation of the transition rates, steady state construction and solution of the time-dependent Lindblad master equation for the time evolution of the occupation probabilities many-body states (MBSs). Here we can observe the dynamical parity stabilization.
-Lindblad in excit picture.ipynb uses the current matrix elements calculated in Current_ABS.ipynb to construct the system of equations for the occupation probabilities of the MBSs.
+These are code examples from the *Dynamical Parity Stabilization* project with spin–orbit interaction (SOI) and Zeeman field (ZF).
+
+**Current_ABS.ipynb** contains the derivation of ABS energies (with SOI and ZF) and current matrix elements between Andreev bound states (ABS) and between ABS and continuum states using a transfer-matrix approach.
+
+**Lindblad_in_excit_picture.ipynb** contains the derivation of transition rates, construction of the steady state, and the solution of the time-dependent Lindblad master equation describing the evolution of occupation probabilities of many-body states (MBS).
+
+This notebook uses the current matrix elements calculated in **Current_ABS.ipynb** to construct the system of equations governing the occupation probabilities of the MBS.
